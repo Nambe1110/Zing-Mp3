@@ -29,7 +29,7 @@ html {
 
 .main-nav{
     background-color: #231b2e;
-    width: 240px;
+    width: 220px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -232,7 +232,7 @@ html {
 .main-body{
     background-color: #170f23;
     padding-left: 240px;
-    width: calc(100% - 330px);
+    width: calc(100% - 300px);
     height: calc(100vh - 90px);
     display: none;
 }
@@ -270,7 +270,7 @@ html {
     z-index: 0;
     right: 0;
     bottom: 90px;
-    width: 330px;
+    width: 300px;
     height: calc(100vh - 90px);
     max-height: calc(100vh - 90px);
     border-bottom: none;
@@ -588,7 +588,7 @@ html {
 }
 
 .body-header{
-    width: calc(100% - 330px) !important;
+    width: calc(100% - 300px) !important;
     background-color: #170f23;
     padding-left: 240px;
     width: 100%;
@@ -1483,7 +1483,7 @@ html {
     align-items: center;
     margin-bottom: 12px;
     background-color: #998CEB;
-    padding: 2px 16px;
+    padding: 2px 8px;
     border-radius: 5px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -1503,7 +1503,7 @@ html {
 
 .my-song .my-body-info{
     flex: 1;
-    padding: 5px 16px;
+    padding: 5px ;
 }
 
 .my-song .my-title{
@@ -1516,7 +1516,6 @@ html {
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-word;
-    font-size: 14px;
     color: #000;
     font-size: 14px;
 }
